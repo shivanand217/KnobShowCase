@@ -2,15 +2,21 @@ PODS:
   - KnobControl (1.0.0)
 
 DEPENDENCIES:
-  - KnobControl (from `/Users/apple/Downloads/Downloads-new/How to Create a Framework for iOS 2/Intermediate/KnobControl`)
+  - KnobControl (from `https://github.com/shivanand217/KnobControl`, tag `1.0.0`)
 
 EXTERNAL SOURCES:
   KnobControl:
-    :path: "/Users/apple/Downloads/Downloads-new/How to Create a Framework for iOS 2/Intermediate/KnobControl"
+    :git: https://github.com/shivanand217/KnobControl
+    :tag: 1.0.0
+
+CHECKOUT OPTIONS:
+  KnobControl:
+    :git: https://github.com/shivanand217/KnobControl
+    :tag: 1.0.0
 
 SPEC CHECKSUMS:
-  KnobControl: b289df03445b17853dfebfbaf846c8120be9e978
+  KnobControl: 4e769911f191510558d2f2ae49462b0e5deffe28
 
-PODFILE CHECKSUM: d2971acbc82dce187cfa5fdfd7dfbf1e315b0546
+PODFILE CHECKSUM: 3ebdf7c6523b82e98544026a97a37f688c0883a4
 
 COCOAPODS: 1.9.3

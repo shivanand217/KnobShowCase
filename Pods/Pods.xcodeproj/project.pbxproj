@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		011403F2042E66B8699C614871EA7B4C /* KnobControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9B67CB1C3CABE100E96ADD2BA2E26 /* KnobControl-dummy.m */; };
-		3A21FEF18F8B1827C12515C10C3AD9E2 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE279465647D834405F300CA8B64654F /* RotationGestureRecognizer.swift */; };
-		55C894669CB781192658A1D6E2D1C8BC /* KnobRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792990F50D4AE414F47B5AA6B765C11 /* KnobRender.swift */; };
-		5E377E1AF9BBF421C8DA6DA38B56E591 /* KnobControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D72BD4785EA5F649D47017C1A0D9858 /* KnobControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		011403F2042E66B8699C614871EA7B4C /* KnobControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5750090B065A190AF323F1027778A710 /* KnobControl-dummy.m */; };
+		3A21FEF18F8B1827C12515C10C3AD9E2 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A076C989091F54E6566BB50021BD392E /* RotationGestureRecognizer.swift */; };
+		55C894669CB781192658A1D6E2D1C8BC /* KnobRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43763FC066D3ECEA5518590C01FC424 /* KnobRender.swift */; };
+		5E377E1AF9BBF421C8DA6DA38B56E591 /* KnobControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1381F25B37261FBBA3FF3BC6340BF8F7 /* KnobControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6E70A4377E35B9B37F77CF70056B37F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B6B23A62BBFD96487FE20BFB2106BFAA /* Pods-KnobShowcase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE492300171302A7534AC34B59BFCA3 /* Pods-KnobShowcase-dummy.m */; };
 		B744E4E357AF1CC8770F418C1FD111BF /* Pods-KnobShowcase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 266508C8B914DFE2880A9FF409506869 /* Pods-KnobShowcase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B869D4EB5B9D1349B504EA9FF35C13EE /* KnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BA76E475D69EC4A56A1A934EF20909 /* KnobControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B869D4EB5B9D1349B504EA9FF35C13EE /* KnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F589B88F2A73055D9AB0F89AEBC5A700 /* KnobControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA182E30AD33D18893302F46B062FA55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D2B7E396FE9569574722D8B051C019C8 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE4F88E3A52FBC6920C10D7008650B /* Knob.swift */; };
+		D2B7E396FE9569574722D8B051C019C8 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D50310985A5F3AEA5E11BF8B404082 /* Knob.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,31 +30,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1381F25B37261FBBA3FF3BC6340BF8F7 /* KnobControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KnobControl-umbrella.h"; sourceTree = "<group>"; };
+		15E8E35CA9D71A57C493BA11078528E6 /* KnobControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KnobControl-Info.plist"; sourceTree = "<group>"; };
 		266508C8B914DFE2880A9FF409506869 /* Pods-KnobShowcase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KnobShowcase-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3D72BD4785EA5F649D47017C1A0D9858 /* KnobControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KnobControl-umbrella.h"; sourceTree = "<group>"; };
+		36C22A56775F1F7F4475E1C5C2D2A0F3 /* KnobControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KnobControl.modulemap; sourceTree = "<group>"; };
 		3E1FB0F4092C065CDA30E79C1B510E0D /* KnobControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KnobControl.framework; path = KnobControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48884C4DFDA54E393F7C74F5EC942ACB /* Pods-KnobShowcase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KnobShowcase-acknowledgements.plist"; sourceTree = "<group>"; };
-		6792990F50D4AE414F47B5AA6B765C11 /* KnobRender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KnobRender.swift; path = KnobControl/KnobRender.swift; sourceTree = "<group>"; };
-		69DE4F88E3A52FBC6920C10D7008650B /* Knob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Knob.swift; path = KnobControl/Knob.swift; sourceTree = "<group>"; };
-		73F553105E486E7FC0370BF521E7FF9C /* KnobControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KnobControl-prefix.pch"; sourceTree = "<group>"; };
-		7E8053F8537B2532A737E00B805537E8 /* KnobControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KnobControl.modulemap; sourceTree = "<group>"; };
+		5750090B065A190AF323F1027778A710 /* KnobControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KnobControl-dummy.m"; sourceTree = "<group>"; };
 		97AE0C9FF4AD608AA562E2F0CB020343 /* Pods-KnobShowcase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KnobShowcase.modulemap"; sourceTree = "<group>"; };
-		99BA76E475D69EC4A56A1A934EF20909 /* KnobControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KnobControl.h; path = KnobControl/KnobControl.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A076C989091F54E6566BB50021BD392E /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationGestureRecognizer.swift; path = KnobControl/RotationGestureRecognizer.swift; sourceTree = "<group>"; };
 		A55153FE146742DEBFD8EB0A7E675F99 /* Pods-KnobShowcase-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KnobShowcase-frameworks.sh"; sourceTree = "<group>"; };
-		A8F9B67CB1C3CABE100E96ADD2BA2E26 /* KnobControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KnobControl-dummy.m"; sourceTree = "<group>"; };
-		AB354704C3A355E2A75885A2F7059035 /* KnobControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KnobControl.release.xcconfig; sourceTree = "<group>"; };
-		AE279465647D834405F300CA8B64654F /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationGestureRecognizer.swift; path = KnobControl/RotationGestureRecognizer.swift; sourceTree = "<group>"; };
-		B78287E3FC15C778A0FEAD924E3A3E97 /* KnobControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KnobControl.debug.xcconfig; sourceTree = "<group>"; };
-		B90A013C5112E546360A8621DABF9316 /* KnobControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KnobControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7DD0B8DA8D0BA8A9D754A9E62DA8C66 /* KnobControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KnobControl.debug.xcconfig; sourceTree = "<group>"; };
 		BF9F5F87C1025F836F4D369C446B6544 /* Pods-KnobShowcase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KnobShowcase-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CACF6509AEE8DD7C7BB577776A208E0A /* Pods-KnobShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KnobShowcase.debug.xcconfig"; sourceTree = "<group>"; };
-		D14413BF39E2B9D9D0A0EFE72EA00D91 /* KnobControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KnobControl-Info.plist"; sourceTree = "<group>"; };
 		D52CCDBEB79D16B10D9C32CB65C88297 /* Pods-KnobShowcase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KnobShowcase-Info.plist"; sourceTree = "<group>"; };
 		DA933833BBC5BEC02B449438EF718BCE /* Pods_KnobShowcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KnobShowcase.framework; path = "Pods-KnobShowcase.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F5DD1A748A80351443AB492B5196C6 /* Pods-KnobShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KnobShowcase.release.xcconfig"; sourceTree = "<group>"; };
+		E93E97D5611B0471D0EAB54A9D76068D /* KnobControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KnobControl.release.xcconfig; sourceTree = "<group>"; };
+		EB97CE6E8211277F7B7A80074F4FEBE8 /* KnobControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KnobControl-prefix.pch"; sourceTree = "<group>"; };
 		ECE492300171302A7534AC34B59BFCA3 /* Pods-KnobShowcase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KnobShowcase-dummy.m"; sourceTree = "<group>"; };
+		F43763FC066D3ECEA5518590C01FC424 /* KnobRender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KnobRender.swift; path = KnobControl/KnobRender.swift; sourceTree = "<group>"; };
+		F589B88F2A73055D9AB0F89AEBC5A700 /* KnobControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KnobControl.h; path = KnobControl/KnobControl.h; sourceTree = "<group>"; };
+		F9D50310985A5F3AEA5E11BF8B404082 /* Knob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Knob.swift; path = KnobControl/Knob.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		063A82EF576005780E71BD560D46144E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEB89FF3025318FCC94E7013E9E9DB85 /* KnobControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		25CF91E38EC18AD82A1FB211EA8C1B3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,43 +91,6 @@
 				DA933833BBC5BEC02B449438EF718BCE /* Pods_KnobShowcase.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4DF1238A436E2C7C15B0D525F91D46BE /* KnobControl */ = {
-			isa = PBXGroup;
-			children = (
-				69DE4F88E3A52FBC6920C10D7008650B /* Knob.swift */,
-				99BA76E475D69EC4A56A1A934EF20909 /* KnobControl.h */,
-				6792990F50D4AE414F47B5AA6B765C11 /* KnobRender.swift */,
-				AE279465647D834405F300CA8B64654F /* RotationGestureRecognizer.swift */,
-				7E62B62E5F2ABA8EAA7A8E3F25DC5064 /* Pod */,
-				76A7CE179DF031EE6B53F326DA1101B2 /* Support Files */,
-			);
-			name = KnobControl;
-			path = "/Users/apple/Downloads/Downloads-new/How to Create a Framework for iOS 2/Intermediate/KnobControl";
-			sourceTree = "<absolute>";
-		};
-		76A7CE179DF031EE6B53F326DA1101B2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7E8053F8537B2532A737E00B805537E8 /* KnobControl.modulemap */,
-				A8F9B67CB1C3CABE100E96ADD2BA2E26 /* KnobControl-dummy.m */,
-				D14413BF39E2B9D9D0A0EFE72EA00D91 /* KnobControl-Info.plist */,
-				73F553105E486E7FC0370BF521E7FF9C /* KnobControl-prefix.pch */,
-				3D72BD4785EA5F649D47017C1A0D9858 /* KnobControl-umbrella.h */,
-				B78287E3FC15C778A0FEAD924E3A3E97 /* KnobControl.debug.xcconfig */,
-				AB354704C3A355E2A75885A2F7059035 /* KnobControl.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../Starter/KnobShowcase/Pods/Target Support Files/KnobControl";
-			sourceTree = "<group>";
-		};
-		7E62B62E5F2ABA8EAA7A8E3F25DC5064 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B90A013C5112E546360A8621DABF9316 /* KnobControl.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		8794F961535FBD80ACA3440F8D2AC0C5 /* Pods-KnobShowcase */ = {
@@ -138,6 +108,21 @@
 			);
 			name = "Pods-KnobShowcase";
 			path = "Target Support Files/Pods-KnobShowcase";
+			sourceTree = "<group>";
+		};
+		9A6FFEB34CE76EF0488CEC2B63CEF879 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36C22A56775F1F7F4475E1C5C2D2A0F3 /* KnobControl.modulemap */,
+				5750090B065A190AF323F1027778A710 /* KnobControl-dummy.m */,
+				15E8E35CA9D71A57C493BA11078528E6 /* KnobControl-Info.plist */,
+				EB97CE6E8211277F7B7A80074F4FEBE8 /* KnobControl-prefix.pch */,
+				1381F25B37261FBBA3FF3BC6340BF8F7 /* KnobControl-umbrella.h */,
+				A7DD0B8DA8D0BA8A9D754A9E62DA8C66 /* KnobControl.debug.xcconfig */,
+				E93E97D5611B0471D0EAB54A9D76068D /* KnobControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KnobControl";
 			sourceTree = "<group>";
 		};
 		AC08522F545FFE0956388DC5D5595FD4 /* Targets Support Files */ = {
@@ -160,8 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E6E98211F3B2926CCAAAF7C7AB232B86 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				063A82EF576005780E71BD560D46144E /* Pods */,
 				25CF91E38EC18AD82A1FB211EA8C1B3B /* Products */,
 				AC08522F545FFE0956388DC5D5595FD4 /* Targets Support Files */,
 			);
@@ -175,12 +160,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E6E98211F3B2926CCAAAF7C7AB232B86 /* Development Pods */ = {
+		DEB89FF3025318FCC94E7013E9E9DB85 /* KnobControl */ = {
 			isa = PBXGroup;
 			children = (
-				4DF1238A436E2C7C15B0D525F91D46BE /* KnobControl */,
+				F9D50310985A5F3AEA5E11BF8B404082 /* Knob.swift */,
+				F589B88F2A73055D9AB0F89AEBC5A700 /* KnobControl.h */,
+				F43763FC066D3ECEA5518590C01FC424 /* KnobRender.swift */,
+				A076C989091F54E6566BB50021BD392E /* RotationGestureRecognizer.swift */,
+				9A6FFEB34CE76EF0488CEC2B63CEF879 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = KnobControl;
+			path = KnobControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,7 +376,7 @@
 		};
 		41155C51299B677C484AA308C6695246 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B78287E3FC15C778A0FEAD924E3A3E97 /* KnobControl.debug.xcconfig */;
+			baseConfigurationReference = A7DD0B8DA8D0BA8A9D754A9E62DA8C66 /* KnobControl.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -419,7 +409,7 @@
 		};
 		834A5B2ED6180EE19D0881169A8304A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB354704C3A355E2A75885A2F7059035 /* KnobControl.release.xcconfig */;
+			baseConfigurationReference = E93E97D5611B0471D0EAB54A9D76068D /* KnobControl.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
