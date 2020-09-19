@@ -5,7 +5,7 @@ target 'KnobShowcase' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'KnobControl', :path => '/Users/apple/Downloads/Downloads-new/How to Create a Framework for iOS 2/Intermediate/KnobControl'
+  pod 'KnobControl', :git => "https://github.com/shivanand217/KnobControl", :tag => '1.0.0'
 
   # Pods for KnobShowcase
 
